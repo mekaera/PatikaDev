@@ -1,0 +1,40 @@
+Matrisin tanımı nedir?
+Matematikte matris veya dizey, dikdörtgen bir sayılar tablosu veya daha genel bir açıklamayla, toplanabilir veya çarpılabilir soyut miktarlar tablosudur.
+
+Bilgisayar Grafiklerinde bunlar nerde kullanılır?
+Matrisler bilgisayar grafiklerinde noktalar eşliğinde yaratılan 2 boyutlu veya 3 boyutlu grafiğin rotasyon alması,haraket etmesi,büyüyüp küçülmesi veya
+kameralar arasında geçiş yapılması gibi pek çok alanda kullanılır.
+
+Örnek
+Mesela bir üçgen grafiğini büyütmek istiyoruz ozaman diyelim ki bu üçgenin nokları (0,1),(-1,-1) ve (1,-1) bunu matris olarak söyle gösteririz.
+
+sx x bakımından büyüme ve sy y bakımında büyümeyi temsil eder.
+
+ilk nokta   ikinci nokta  üçüncü nokta     her noktanın çarpılıcağı matris    buna göre ilk noktanın yeni konumu söyle hesaplanır
+   0             -1            1                      sx 0                           sx 0    0     sx*0
+   1             -1           -1                      0 sy                           0 sy    1     sy*1
+   
+   
+   sy değişkenini 2 sayarsak üçgenin yeni görünümünü böyle düşüne biliriz    
+   (0,2) yeni nokta kordinati
+
+                *
+         *     
+         o      o 
+        * *    * *
+        
+        gördüğünüz gibi yıldızları birleştiridiğimizde çıkan üçgen büyüdü şimdi bunu diğer noktalara da uygulayalım
+        
+        
+        2 0  -1   (-2,-2)
+        0 2  -1
+        
+        2 0   1   (2,-2)
+        0 2  -1
+        
+                *                *
+         *     
+         o      o                o
+        * *    * *
+        
+                               *   *
